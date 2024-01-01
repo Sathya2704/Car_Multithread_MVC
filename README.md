@@ -18,21 +18,19 @@ Step 3: Have a related database.
    ~ My database Name: car_db      
    
    ~ Consists of 2 tables, user table is for login credentials. 
-    user:
-  ---------------------
-  | name  | password  |
-  ---------------------     
-  |       |           |
+        user:
+      ---------------------
+      | name  | password  |
+      ---------------------     
+      |       |           |
 
    ~ cars table is to perform CRUD operations.
-    cars:
-  ----------------------------------------------------------------------------------------------------------------------------------------  
-  | Customer_Name | Mobile_Number | Gender | City | Budget | Brand_Name | Model_Name | Price_in_lakh | Fuel | Mileage | Seating_Capacity |
-  ----------------------------------------------------------------------------------------------------------------------------------------
-  |               |               |        |      |        |            |            |               |      |         |                  |  
+        cars:
+      ----------------------------------------------------------------------------------------------------------------------------------------
+      | Customer_Name | Mobile_Number | Gender | City | Budget | Brand_Name | Model_Name | Price_in_lakh | Fuel | Mileage | Seating_Capacity |
+      ----------------------------------------------------------------------------------------------------------------------------------------
+      |               |               |        |      |        |            |            |               |      |         |                  |
 
-
-  
 Step 4: Make sure about mysql-connector-java-8.0.26.jar in your Referenced Libraries (use supporting version).
 
 Step 5: Finally, set DbUtil inside the package com.botree.util
