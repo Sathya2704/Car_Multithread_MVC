@@ -15,8 +15,7 @@ Step 2: Import it in your IDE. Make sure your IDE supports java. (JDK)
 
 Step 3: Have a related database.
 
-   ~ My database Name: **car_db**
-
+   ~ My database Name: **car_db**       
    
    ~ Consists of 2 tables, user table is for login credentials. 
     user:
