@@ -16,6 +16,7 @@ Step 2: Import it in your IDE. Make sure your IDE supports java. (JDK)
 Step 3: Have a related database.
 
    ~ My database Name: **car_db**
+
    
    ~ Consists of 2 tables, user table is for login credentials. 
     user:
@@ -30,6 +31,7 @@ Step 3: Have a related database.
   | Customer_Name | Mobile_Number | Gender | City | Budget | Brand_Name | Model_Name | Price_in_lakh | Fuel | Mileage | Seating_Capacity |
   ----------------------------------------------------------------------------------------------------------------------------------------
   |               |               |        |      |        |            |            |               |      |         |                  |  
+
   
 Step 4: Make sure about mysql-connector-java-8.0.26.jar in your Referenced Libraries (use supporting version).
 
